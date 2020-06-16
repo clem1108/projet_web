@@ -1,0 +1,27 @@
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea{
+    resize: none;
+    border-color: transparent;
+}
+

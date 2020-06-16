@@ -1,0 +1,527 @@
+.annonce {
+    text-align: center;
+}
+
+.formselection{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 160px;
+}
+
+#buttonsuppression{
+    grid-column: 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+}
+
+.buttonsuppression{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#inputselnom{
+    grid-column: 1;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+}
+
+.inputselnom{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.title_selection {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#inputselprix{
+    grid-column: 2;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+}
+
+.inputselprix{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#buttonmodification {
+    grid-column: 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+}
+
+.buttonmodification {
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.titleannonce1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#annoncebutton{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#creerannonce{
+    grid-column: 1;
+}
+
+.creerannonce{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+#modifierannonce{
+    grid-column: 2;
+}
+
+.modifierannonce{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+#supprimerannonce{
+    grid-column: 3;
+}
+
+.supprimerannonce{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+#imgbackannonce{
+    grid-column: 2;
+}
+
+.imgbackannonce{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.titleannonce{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form_annonce {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+
+#name_annonce{
+    grid-row: 1;
+    grid-column: 2/ span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.name_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#desc_annonce{
+    grid-row: 2;
+    grid-column: 2/ span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desc_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#prix_annonce{
+    grid-row: 3;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prix_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#ville_annonce{
+    grid-row: 4;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ville_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#select_annonce{
+    grid-row: 5;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.select_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#cat_annonce{
+    grid-row: 6;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cat_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+#file1_annonce{
+    grid-row: 7;
+    grid-column: 2;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.file1_annonce{
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#file2_annonce{
+    grid-row: 7;
+    grid-column: 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+}
+
+.file2_annonce{
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#file3_annonce{
+    grid-row: 7;
+    grid-column: 4;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.file3_annonce{
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#button_crea_annonce{
+    grid-row: 8;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button_crea_annonce{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+#button_modif_annonce{
+    grid-row: 8;
+    grid-column: 2 / span 3;
+    background-color: #F7F7F7;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button_modif_annonce{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.button_annonce{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: none;
+}
+
+input[type=text], select {
+    text-align: center;
+    text-align-last: center;
+  }
+
+.info_annonce {
+    text-align: center;
+    font-size: 22px;
+    color: var(--texte-retour);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titreannonce{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#pageannonce{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33% ;
+}
+
+#imgannonce1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.imgannonce1{
+    width: 80%;
+    height: 100%;
+}
+
+#imgannonce2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.imgannonce2{
+    width: 80%;
+    height: 100%;
+}
+
+#imgannonce3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.imgannonce3{
+    width: 80%;
+    height: 100%;
+}
+
+#profilvendeur{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.profilvendeur{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+}
+
+#sendmessage{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.sendmessage{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-retour);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 300px;
+}
+
+#descannonce{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.descannonce{
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+
+#descannonce2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.descannonce2{
+    margin-top: 130px;
+}
+
+#miseenligne{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.miseenligne{
+    margin-top: 60px;
+}
+
+#nomvendeur{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.nomvendeur{
+    margin-top: 160px;
+}
+
+#ville{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.ville{
+    margin-top: 190px;
+}
+
+#annoncestatus{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.annoncestatus{
+    margin-top: 280px;
+}
+
+
+#catannonce{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.catannonce{
+    margin-top: 220px;
+}
+
+#prixannonce{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.prixannonce{
+    margin-top: 250px;
+}

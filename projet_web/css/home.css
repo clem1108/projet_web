@@ -1,0 +1,35 @@
+#content-home{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 30%;
+    margin-left: 500px;
+    grid-column: 1;
+}
+
+.deco{
+    width: 100px;
+    height: 50px;
+    color: var(--texte-noir);
+    background-color: lightgray;
+    border: none;
+    grid-column: 4;
+    margin-top: 40px;
+}
+
+.profil{
+    width: 100px;
+    height: 50px;
+    color: var(--texte-noir);
+    background-color: lightgray;
+    border: none;
+    grid-column: 4;
+    margin-top: 40px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 20% 15% 15%;
+}

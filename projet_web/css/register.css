@@ -1,0 +1,301 @@
+#formall{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 20% 20% 20% 20% 20%;
+}
+
+.logintitle1{
+    font-size: 56px;
+    color: var(--texte-login);
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.zone{
+    grid-row: 1 / span 5;
+    grid-column: 2;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#inputemail{
+    grid-row: 2;
+    grid-column: 1;
+    margin-bottom: 40px;
+    background-color: #F7F7F7;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.txtemail{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputemail{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#inputmdp{
+    grid-row: 3;
+    grid-column: 1;
+    margin-bottom: 40px;
+    background-color: #F7F7F7;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.txtmdp{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputmdp{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#buttonlogin{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.buttonlogin{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-login);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+    margin-left: 150px;
+}
+
+#linkregister{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.nocompte{
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+#formregister{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
+
+.logintitle2{
+    font-size: 56px;
+    color: var(--texte-login);
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.imgregister{
+    width: 100%;
+}
+
+#inputnom{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #F7F7F7;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.txtnom{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputnom{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#inputprenom{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #F7F7F7;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.txtprenom{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputprenom{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#inputmail{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    background-color: #F7F7F7;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.txtmail{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputmail{
+    width: 535px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#inputmdp1{
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    background-color: #F7F7F7;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.txtmdp1{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputmdp1{
+    width: 535px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#inputnum{
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    background-color: #F7F7F7;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.txtnum{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputnum{
+    width: 535px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#buttonregister{
+    grid-row: 6;
+    grid-column: 1 / span 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.buttonregister{
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-login);
+    font-weight: bold;
+    border: none;
+    color: var(--texte-blanc);
+}
+
+#titletest{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+#imgfond{
+    grid-column: 3;
+    grid-row: 1 / span 5;
+}
+
+.formform{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
+
+#inputimg{
+    grid-row: 5;
+    grid-column: 1 / span 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputimg{
+    width: 400px;
+    height: 30px;
+}
+
+
+

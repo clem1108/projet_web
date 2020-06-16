@@ -388,7 +388,7 @@ input[type=text], select {
 
 #pageannonce{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 25% 25%;
     grid-template-rows: 33% 33% 33% ;
 }
 
@@ -437,7 +437,7 @@ input[type=text], select {
 }
 
 #sendmessage{
-    grid-column: 2;
+    grid-column:3;
     grid-row: 1;
 }
 
@@ -448,80 +448,79 @@ input[type=text], select {
     font-weight: bold;
     border: none;
     color: var(--texte-blanc);
-    margin-left: 300px;
 }
 
 #descannonce{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .descannonce{
     font-size: 20px;
-    margin-top: 90px;
+    margin-top: -70px;
 }
 
 
 #descannonce2{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .descannonce2{
-    margin-top: 130px;
+    margin-top: -40px;
 }
 
 #miseenligne{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .miseenligne{
-    margin-top: 60px;
+    margin-top: -10px;
 }
 
 #nomvendeur{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .nomvendeur{
-    margin-top: 160px;
+    margin-top: 20px;
 }
 
 #ville{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .ville{
-    margin-top: 190px;
+    margin-top: 50px;
 }
 
 #annoncestatus{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .annoncestatus{
-    margin-top: 280px;
+    margin-top: 140px;
 }
 
 
 #catannonce{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .catannonce{
-    margin-top: 220px;
+    margin-top: 80px;
 }
 
 #prixannonce{
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .prixannonce{
-    margin-top: 250px;
+    margin-top: 110px;
 }

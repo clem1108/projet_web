@@ -52,7 +52,7 @@
                     $id_client = $client['id_client'];
                     if ($id_client_messagerie == $id_client and $id_proprietaire_messagerie == $id_proprietaire and $id_annonce_messagerie == $id_annonce) {
                             $nom_prenom = $client['nom'] . ' ' . $client['prenom'];
-                            ?> <p><a class="p_center" href="formulaire_message.php?id_client=<?php echo $id_client?>"> <?php echo $nom_prenom; ?> </a> </p>
+                            ?> <p class="p_center"><a href="formulaire_message.php?id_client=<?php echo $id_client?>"> <?php echo $nom_prenom; ?> </a> </p>
                     <?php
                     }
                 }

@@ -39,7 +39,7 @@
             <a class="txthead2" href="../client/profil.php"><p>Profil</p></a>
             <button class="retour_message" onclick="window.location.href = '../annonce/annonce.php?<?php echo $parametre?>';">Retour</button>
         </header>
-        <h1> Message </h1>
+        <h1 class="titre_centre"> Messages </h1>
         <form class="form_message" action="message.php" method="post">
             <div id="inputmessage">
                 <input class="inputmessage" type="texte" name="message" placeholder="Votre message" />
@@ -88,17 +88,18 @@
                         ?>
                         <tr>
                         <?php if ($id_client_message == $id_client) {
-                            ?> <td class="votre_message">
-                            <?php
-                            echo $texte_message; ?>
-                            </td>
-                            <td></td>
-                        <?php } else {
                             ?> <td>
                             </td>
-                            <td class="son_message">
+                            <td class="votre_message">
                             <?php
                             echo $texte_message; ?>
+                            </td>
+                        <?php } else {
+                            ?> <td class="son_message">
+                                <?php
+                                echo $texte_message; ?>
+                            </td>
+                            <td>
                             </td>
                         <?php
                         }

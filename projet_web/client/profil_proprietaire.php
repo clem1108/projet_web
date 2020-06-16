@@ -10,7 +10,7 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <title>La Bonne Zone |Profil Vendeur</title>
+        <title>La Bonne Zone | Profil Vendeur</title>
         <meta name="description" content="Profil Vendeur"/>
         <link rel="stylesheet" href="../css/main.css" type='text/css'>
     </head>
@@ -24,7 +24,7 @@
                 <p class="txthead1">Achat</p>
                 <a class="login1" href="../client/profil.php"><img src="../img/profil.svg" alt="image profil"></a>
                 <a class="txthead2" href="../client/profil.php"><p>Profil</p></a>
-                <button class="retour" onclick="window.location.href = '../annonce/annonce.php?<?php echo $parametre ?>';">Retour</button>
+                <button class="retour" onclick="window.location.href = '../annonce/annonce.php? <?php echo $parametre ?>'">Retour</button>
             </header>
         <?php
             $query1 = $pdo->prepare('SELECT * FROM clients');

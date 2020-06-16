@@ -170,7 +170,9 @@
                         }
                     }
                 if (isset($messagerie_presente) and $_SESSION['table'] == 'client') {?>
-                    <button onclick="window.location.href = '../message/selection_reponse.php';">Repondre</button>
+                    <div id="sendmessage">
+                        <button class="sendmessage" onclick="window.location.href = '../message/selection_reponse.php';">Repondre</button>
+                    </div>
                 <?php }
                 } ?>
             <div id="descannonce">

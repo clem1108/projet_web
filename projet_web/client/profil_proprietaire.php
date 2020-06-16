@@ -24,7 +24,7 @@
                 <p class="txthead1">Achat</p>
                 <a class="login1" href="../client/profil.php"><img src="../img/profil.svg" alt="image profil"></a>
                 <a class="txthead2" href="../client/profil.php"><p>Profil</p></a>
-                <button class="retour" onclick="window.location.href = '../annonce/annonce.php? <?php echo $parametre ?>'">Retour</button>
+                <a class="testretour" href="../annonce/annonce.php?<?php echo $parametre;?>"><button class="retour">Retour</button></a>
             </header>
         <?php
             $query1 = $pdo->prepare('SELECT * FROM clients');
@@ -88,6 +88,7 @@
                 }
                 ?>
         </div>
+    </div>
 </body>
 </html>
 
